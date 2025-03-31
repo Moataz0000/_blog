@@ -13,6 +13,6 @@ class PostModelTest(TestCase):
 
     def test_post_creation(self):
         post = Post.objects.get(id=1)
-        self.assertEqual(post.title, 'Test Title')
+        self.assertEqual(post.title, 'Tesst Title')
         self.assertEqual(post.content, 'Test Content')
         self.assertTrue(isinstance(post, Post))
